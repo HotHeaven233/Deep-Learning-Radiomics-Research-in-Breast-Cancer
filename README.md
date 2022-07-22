@@ -14,4 +14,5 @@ Determine whether the training data is the fourth level thoracic vertebra or the
 `$ tensorboard --logdir=./Result`
 ### 4.Extract image features
 The img_root variable in predict.py determines the image to extract features (such as the test set of the fourth thoracic vertebra:'./data/T4-jipangji-predict',the test set of the eleven thoracic vertebra:'./data/T11-neizang-predict'), and the weights_path variable determines which trained network weight to use.  
+`$ python predict.py`
 ### 5.RandomForest classification
