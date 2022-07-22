@@ -18,11 +18,11 @@ The img_root variable in predict.py determines the image to extract features (su
 ### 5.RandomForest classification
 The datasets models that combine the network features extracted at different levels with clinical information are run (in order: Clinical information combined DLR (T4&T11), Clinical information combined DLR (T4), Clinical information combined DLR (T11), Classification by clinical information).
 
-  `cd model`
-  `$ python rf_T4_T11.py`	
-  `$ python rf_T4.py`	
-  `$ python rf_T11.py`
-  `$ python rf_clinical.py`
+  `cd model`  
+  `$ python rf_T4_T11.py`	  
+  `$ python rf_T4.py`	  
+  `$ python rf_T11.py`  
+  `$ python rf_clinical.py`  
 
 ## ROC curve
 
