@@ -62,7 +62,7 @@ def main():
             output = torch.where(output >= threshold, torch.ones_like(output), output)
             output = torch.where(output < threshold, torch.zeros_like(output), output)
             # predict_y = torch.max(output, dim=0)[1].int().item()
-            i = img_path[27:]  # 预测27 训练23
+            i = img_path[27:]  # tests set 27 train set 23
             i = int(i[:-4])  #
             list.append(i)
             tensor = activation['fc'].cpu()  # .tolist()
