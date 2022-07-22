@@ -24,12 +24,12 @@ The datasets models that combine the network features extracted at different lev
   `$ python rf_T11.py`
   `$ python rf_clinical.py`
 
-### ROC curve
+## ROC curve
 
 > `cd model` 
 > `$ python ROC.py`
 
-### Result
+## Result
 
 | Methods                                   |      | AUC   | ACC  | SENS | SPEC | PPV  | NPV  |
 | ----------------------------------------- | ---- | ----- | ---- | ---- | ---- | ---- | ---- |
